@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 session_start();
 
 require '../Meli/meli.php';
@@ -28,9 +28,9 @@ if($_GET['code']) {
 	// We construct the item to POST
 	$item = array(
 		"title" => "Item De Teste - Por Favor, Não Ofertar! --kc:off",
-        "category_id" => "MLB257111",
+        "category_id" => "MLA1071",
         "price" => 10,
-        "currency_id" => "BRL",
+        "currency_id" => "MXN",
         "available_quantity" => 1,
         "buying_mode" => "buy_it_now",
         "listing_type_id" => "bronze",
